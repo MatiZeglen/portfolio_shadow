@@ -13,6 +13,7 @@
             <div id="preview">
 
             </div>
+        </aside>
             <div class="settings">
                 <div class="range-wrapper">
                     <label for="x-shadow">Horizontal Shadow: </label>
@@ -45,10 +46,14 @@
                 </div>
 
                 <div class="color-wrapper">
-                    
+                    <label for="shadow-color">Shadow Color: </label>
+                    <input type="color" id="shadow-color">
                 </div>
             </div>
-        </aside>
+        <div class="code-container">
+            <textarea id="styles" rows="2"></textarea>
+            <button id="copy-styles" onclick="copyStyles()">Copy Styles</button>
+        </div>
     </section>
 
     <script src="script.js"></script>
