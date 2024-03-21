@@ -16,5 +16,20 @@ function generateStyles()
     const shadowInset = document.getElementById('shadow-inset').ariaChecked;
     const borderRadius = document.getElementById('border-r').value;
     
-    const boxShadow = `${shadowInset} ? "inset " : ""}${xShadow}px ${yShadow}px ${blurRadius}px ${spreadRadius}px ${hexToRgba(shadowColor, shadowOpacity)}`;
+    const boxShadow = `${shadowInset ? "inset " : ""} ${xShadow}px ${yShadow}px ${blurRadius}px ${spreadRadius}px ${hexToRgba(shadowColor, shadowOpacity)}`;
+
+    preview.style.boxShadow = boxShadow;
+    preview.style.borderRadius = `${borderRadius}px`;
+
+    styles.textContent = `box-shadow: ${boxShadow}; \nborder-radius: ${borderRadius}px;`;
 }
+function hexToRgba(shadowColor, shadowOpacity)
+{
+    const r = parseInt(shadowColor.substr(1, 2), 16)
+    const g = parseInt(shadowColor.substr(3, 2), 16)
+    const b = parseInt(shadowColor.substr(5, 2), 16)
+
+    return `rgba(${r}, ${g}, ${b}, ${shadowOpacity})`;
+}
+
+generateStyles();
