@@ -8,7 +8,31 @@
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
 <body>
-    
+    <section class="container">
+        <aside class="result">
+            <div id="preview">
+
+            </div>
+            <div class="settings">
+                <div class="range-wrapper">
+                    <label for="x-shadow">Horizontal Shadow: </label>
+                    <input type="range" id="x-shadow" min="-100" max="100" value="-6">
+                </div>
+                <div class="range-wrapper">
+                    <label for="y-shadow">Vertical Shadow: </label>
+                    <input type="range" id="y-shadow" min="-100" max="100" value="15">
+                </div>
+                <div class="range-wrapper">
+                    <label for="blur-r">Blur Radius: </label>
+                    <input type="range" id="blur-r" min="0" max="100" value="30">
+                </div>
+                <div class="range-wrapper">
+                    <label for="spread-r">Spread Radius: </label>
+                    <input type="range" id="blur-r" min="0" max="100" value="30">
+                </div>
+            </div>
+        </aside>
+    </section>
 
     <script src="script.js"></script>
 </body>
