@@ -84,7 +84,7 @@ textarea
     border: 1px solid #000;
     border-radius: 5px;
 }
-.input-wrappper
+#color-wrappper
 {
     display: flex;
     flex-direction: row;
@@ -98,4 +98,11 @@ input[type="color"]
     height: 25px;
     border: 2px solid #ccc;
 
+}
+
+.input-wrappper
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }

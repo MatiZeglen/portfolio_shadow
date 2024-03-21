@@ -1,0 +1,1 @@
+const preview = document.getElementById('preview'), styles = document.getElementById('styles'), ranges = document.querySelectorAll('.settings input')
