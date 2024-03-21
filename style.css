@@ -11,6 +11,10 @@ body
 {
     background-color: #311b92;
 }
+label
+{
+    font-size: 14px;
+}
 .container
 {
     background-color: #fff;
@@ -79,4 +83,19 @@ textarea
     padding: 5px;
     border: 1px solid #000;
     border-radius: 5px;
+}
+.input-wrappper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+input[type="color"]
+{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ccc;
+
 }
