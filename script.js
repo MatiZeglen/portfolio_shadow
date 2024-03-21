@@ -40,6 +40,7 @@ function hexToRgba(shadowColor, shadowOpacity) {
     return `rgba(${r}, ${g}, ${b}, ${shadowOpacity})`;
 }
 
+
 // Function to copy the generated styles
 function copyStyles() {
     styles.select();
