@@ -109,7 +109,7 @@ input[type="checkbox"]
     border: none;
     color: #fff
 }
-.code-container textarea
+textarea
 {
     resize: none;
     padding: 5px;
