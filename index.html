@@ -8,10 +8,10 @@
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
 <body>
-    <section class="container">
+    <section class="container"> <!-- box shadow-->
         <aside class="result">
             <div id="preview">
-
+                
             </div>
         </aside>
             <div class="settings">
@@ -55,6 +55,42 @@
             <button id="copy-styles" onclick="copyStyles()">Copy Styles</button>
         </div>
     </section>
+
+    <section class="container2"> <!-- box shadow-->
+        <aside class="result2">
+            <div id="preview2">
+                <h1> Preview Text</h1>
+            </div>
+        </aside>
+            <div class="settings2">
+                <div class="range-wrapper2">
+                    <label for="x-shadow2">Horizontal Shadow: </label>
+                    <input type="range" id="x-shadow2" min="-100" max="100" value="-6">
+                </div>
+                <div class="range-wrapper2">
+                    <label for="y-shadow2">Vertical Shadow: </label>
+                    <input type="range" id="y-shadow2" min="-100" max="100" value="15">
+                </div>
+                <div class="range-wrapper2">
+                    <label for="blur-r2">Blur Radius: </label>
+                    <input type="range" id="blur-r2" min="0" max="100" value="30">
+                </div>
+                <div class="range-wrapper2">
+                    <label for="shadow-opacity2">Shadow Opacity: </label>
+                    <input type="range" id="shadow-opacity2" min="0" max="1" step="0.1" value="0.5">
+                </div>
+
+                <div id="color-wrapper2">
+                    <label for="shadow-color2">Shadow Color: </label>
+                    <input type="color" id="shadow-color2">
+                </div>
+            </div>
+        <div class="code-container2">
+            <textarea id="styles2" rows="1"></textarea>
+            <button id="copy-styles2" onclick="copyStyles2()">Copy Styles</button>
+        </div>
+    </section>
+    
 
     <script src="script.js"></script>
 </body>
