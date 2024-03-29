@@ -44,6 +44,7 @@ function copyStyles() {
         copyButton.innerText = "Copy Styles";
     }, 500);
 }
+generateStyles();
 
 const preview2 = document.getElementById("preview2"),
     styles2 = document.getElementById("styles2"),
@@ -81,5 +82,5 @@ function copyStyles2() {
         copyButton2.innerText = "Copy Styles";
     }, 500);
 }
-generateStyles();
+
 generateStyles2();
