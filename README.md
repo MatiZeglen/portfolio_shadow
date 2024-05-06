@@ -1,6 +1,6 @@
 # https://matizeglen.github.io/portfolio_shadow/
 
-<p align="left"><img align="center" src="https://github.com/MatiZeglen/MatiZeglen/blob/90597d301745c89a9c1095b70abe4cc11ca1d497/restauracja.jpg" alt="restauracja png"/></p>
+<p align="left"><img align="center" src="https://github.com/MatiZeglen/MatiZeglen/blob/b51a798fd7420bdf893ef7797b41985242b69dac/shadow.jpg" alt="shadow png"/></p>
 <h1 align="center"> Welcome to my Shadow Generator Website! </h1>
 <h2 align="left"> This website lets you preview and generate shadow for simple objects and text. You can modify your object from square to circle and its shadow almost however you like, e.g. change color of shadow or offset it as much as you like. </h2> <br>
 <h4 align="center"> Feel free to ask any question. </h4>
